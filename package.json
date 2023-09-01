@@ -10,7 +10,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "build": "react-scripts build && cp build/index.html build/404.html",
     "preview": "vite preview"
     
   },
